@@ -83,7 +83,9 @@ footer a:hover {
   color: white;
   font-size: 1.2rem;
 }
-
+.menu-button {
+  display: none;
+}
 .about {
   width: 60%;
   margin: 10px auto;
@@ -187,6 +189,9 @@ footer a:hover {
   nav {
     display: none;
   }
+  .menu-button {
+    display: block;
+  }
   .about {
     width: 80%;
   }
@@ -226,7 +231,20 @@ footer a:hover {
   h2 {
     font-size: 0.8rem;
   }
+  .contact-links {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
   .contact-links li {
     margin-right: 25px;
+  }
+  .contact-links img {
+    width: 25px;
+    height: 25px;
+  }
+  .contact-head img {
+    width: 20px;
+    height: 20px;
   }
 }
